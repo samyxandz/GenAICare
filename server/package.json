@@ -1,18 +1,18 @@
 {
-  "name": "spambytes",
+  "name": "server",
   "version": "1.0.0",
-  "description": "code for spambytes",
+  "description": "backend for spambytes",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": ") app.js"
-  },
-  "author": "spambytes",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3"
   }
 }
