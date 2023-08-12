@@ -1,0 +1,145 @@
+/* About.css */
+.lg\:py-6, .md\:py-4, .py-3 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.bg-gray-200 {
+    background-color: #f3f4f6;
+}
+
+.md\:w-2\/6, .sm\:w-3\/6, .w-4\/6 {
+    width: 66.666667%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lg\:text-3xl, .md\:text-2xl, .text-xl {
+    font-size: 1.25rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-green-800 {
+    color: #047857;
+}
+
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.border-b-4 {
+    border-bottom-width: 4px;
+}
+
+.border-green-400 {
+    border-color: #48bb78;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.sm\:w-10\/12, .w-11\/12 {
+    width: 91.666667%;
+}
+
+.md\:p-8, .sm\:p-6, .p-4 {
+    padding: 2rem;
+}
+
+.md\:py-14, .sm\:py-10, .py-5 {
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.md\:space-y-8, .sm\:space-y-6, .space-y-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.bg-white {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.bg-white:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.md\:grid-cols-3, .sm\:grid-cols-2, .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.md\:gap-8, .sm\:gap-6, .gap-4 {
+    gap: 1rem;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    resize: vertical;
+}
+
+.border-gray-600 {
+    border-color: #4a5568;
+}
+
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.bg-green-400 {
+    background-color: #48bb78;
+    transition: background-color 0.3s ease;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-green-400:hover {
+    background-color: #3d9f61;
+}
+
+.hover\:bg-green-400:hover {
+    background-color: #3d9f61;
+}

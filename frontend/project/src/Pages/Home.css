@@ -1,0 +1,126 @@
+header{
+    margin-top: 0px;
+    background-color: #f9f9f9;
+}
+
+header .row{
+    margin:50px 0px;
+}
+
+header .row h5{
+    color: var(--btn-color);
+    font-size: 20px;
+    margin:10px 0px 10px 0px;
+}
+header h2{
+    color: var(--main-color);
+    font-size: 50px;
+    margin:30px 0px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+header img{
+    max-width: 100%;
+    width:430px;
+}
+header button{
+    background-color: var(--orange-color) !important;
+    width:160px;
+    height: 60px;
+    border: 1px solid var(--orange-color) !important;
+    border-radius:4px o !important;
+    margin-top:20px;
+
+}
+header button a{
+    color: #fff;
+    font-size: 17px;
+    transition: .2s ease;
+}
+header button:hover a{
+    color: #fff;
+}
+header button:hover{
+    opacity: .6;
+}
+
+header span{
+    display: block;
+    font-size: 100px;
+    color: #fff;
+    -webkit-text-stroke: 1px var(--orange-color);
+    -moz-text-stroke:1px var(--orange-color);
+    -o-text-stroke: 1px var(--orange-color);
+    animation: mover 1s infinite alternate;
+    -moz-animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+}
+
+header .header-box{
+    position: relative;
+    max-width: 100%;
+}
+
+
+header img{
+    max-width: 100%;
+    width: 430px;
+    height: 430px;
+    animation: mover 1s infinite alternate;
+    -moz-animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateY(0px);
+
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes mover{
+    0%{
+        transform: translateY(0px);
+
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@-moz-keyframes mover{
+    0%{
+        transform: translateY(0px);
+
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@-o-keyframes mover{
+    0%{
+        transform: translateY(0px);
+
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+header svg{
+    color: var(--btn-color);
+    font-size: 80px;
+    position: absolute;
+    left:0%;
+    top:10%;
+    animation: mover 1s infinite alternate;
+    -moz-animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+}
+
