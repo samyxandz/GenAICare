@@ -1,0 +1,83 @@
+.about {
+    padding: 4rem 4rem 0rem 4rem;
+  }
+  
+  .about h4 {
+    font-size: 20px;
+    background-color: #0da8bc74;
+    display: inline-block;
+    color: #0b7e8d;
+  }
+  
+  .about-main-title {
+    font-size: 60px;
+    line-height: 1;
+    position: relative;
+    color: #0da8bc;
+  }
+  
+  .about-main-title span {
+    color: #f95759;
+  }
+  
+  .about-main-title::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 30%;
+    background-color: #0da8bc;
+    top: 110%;
+    left: 0;
+  }
+  
+  .values-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .values-container h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  .values-container .value {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .values-container .value div:first-child {
+    font-size: 4rem;
+    color: #0da8bc;
+    transition: all .3s;
+    width: 10rem;
+  }
+  
+  .values-container .value div:first-child:hover {
+    color: #1293a4;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .about-main-title {
+      font-size: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .about-main-title {
+      font-size: 40px;
+    }
+    .about {
+      padding: 2rem;
+    }
+    .about h4 {
+      font-size: 15px;
+    }
+    .values-container .value div:first-child {
+      width: 50%;
+    }
+  }
