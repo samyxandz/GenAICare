@@ -1,16 +1,18 @@
 <h1 align="center">Hi 👋, We're Spambytes</h1>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-<h3 align="center">Welcome to GenAIcare, your ultimate platform for detecting disease.</h3>
+<h3 align="center">Welcome to GenAiCare, your ultimate platform for detecting disease.</h3>
 </br></ber>
-
+<div style="text-align: center;">
+<img src="./1.jpg" align="center">
+</div>
 <h2>Description:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-<p>Our platform  Medibytes leverages the power of artificial intelligence to revolutionize the way diseases are detected, diagnosed and appoint doctor for you. With advanced machine learning algorithms and deep neural networks, we offer a cutting-edge solution for accurate and efficient disease identification.</p>
+<p>Our platform  GenAiCare leverages the power of artificial intelligence to revolutionize the way diseases are detected, diagnosed and appoint doctor for you. With advanced machine learning algorithms and deep neural networks, we offer a cutting-edge solution for accurate and efficient disease identification.</p>
 </br></ber>
 <h2>Features:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <ul>
-<li><strong>Fast and Accurate Diagnosis⏲️:</strong> Our AI-powered system analyzes medical data and images swiftly, providing accurate disease predictions to assist healthcare professionals in making informed decisions.
+<li><strong>Fast and Accurate Diagnosis⏲️:</strong> Our AI-powered system analyzes medical data and images swiftly, providing disease predictions to assist healthcare professionals in making informed decisions.
 
 <li><strong>User-Friendly Interface🤗:</strong> Our user-friendly website ensures a seamless experience for both medical practitioners and patients, making the process of disease detection intuitive and accessible.
 <li><strong>Secure and Private🤐:</strong> We prioritize the security and privacy of your medical information. Our platform adheres to strict data protection standards to ensure that your sensitive data remains confidential.
@@ -38,26 +40,50 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 
 <I><B>Join us on the forefront of medical innovation and experience the future of disease detection with AI. Together, we're making healthcare smarter, faster, and more effective.</B></I>
 
+<h2>AI Models Used:-</h2>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+</br></ber>
+<li><strong>Breast cancer detection:-</strong>
+<br><ul>logistic regression</ul>
+<li><strong>parkinson disease:-</strong><ul>support factor machine (svm)</ul>
+<li><strong>Diabetes:-</strong><ul>linear regression & sigmoid</ul>
+<li><strong>Heart disease:-</strong><ul>decision tree classifier & vector classifier </ul>
+<h2>API Used:-
+</h2>
+<p>
+In our system we have used 2 API
+</p>
+<ul>
+<li><a href="https://www.postman.com/spambytes/workspace/team-workspace/collection/26164952-6f5c79bc-7ff2-4806-b8b6-e0b2c4331d22?action=share&source=copy-link&creator=26164952" target="blank">/contacts</a>
+<p>
+This is a rest api that implements CRUD functionality for appointments
+</p>
+<li><a href="https://www.postman.com/spambytes/workspace/team-workspace/collection/26164952-6f5c79bc-7ff2-4806-b8b6-e0b2c4331d22?action=share&creator=26164952" target="blank">/apointments</a>
+<p>
+This is a rest api that implements CRUD functionality for appointments
+</p>
 <h2>Getting Started:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-<B>To dive into the world of ElixNEXUS:</b>
+<B>To dive into the world of GenAIcare:</b>
 <ul>
-<li>Visit our website: <a href="https://www.Medibytes.com" target="blank">https://www.Medibytes.com</a>
+<li>Visit our website: <a href="https://www.GenAiCare.com" target="blank">https://www.GenAiCare.com</a>
 <li> Create an account to access exclusive content and community features.
 <li> Explore health articles, discover wellness practitioners, and engage in discussions.
 </ul>
-<h2> License:-</h2>
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-This project is licensed under the <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" target="blank">MIT License.</a>
 
-</br></ber>
-<h2>Changelog:-</h2>
+<h2>Tools Used:</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <h3> Version 1.0.0 (2023-08-13)</h3>
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-<ul >
-  <b>Initial release</b>
-</ul>
+  <ol type="i">
+  
+  <li><strong>Auth0</strong>
+  <li><strong>MongoDB Atlas</strong>
+  <li><strong>Postman</strong>
+  <li><strong>Streamlit</strong>
+  <li><strong>Github</strong>
+  <li><strong>Github Pages
+  </strong>
+  </ul>
 </br></ber>
 <h2>Acknowledgments</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
@@ -85,15 +111,15 @@ Their insights, feedback, and expertise played a crucial role in shaping the pro
 <li>Scikit-Learn
 <li>Express
 <li>React
-<li>Streamlit
 <li>Auth0
+<li>MongoDB 
+<li>NodeJs
 <br>
 and many more.
 </ol>
 <li><strong>Hackathon Organizers:</strong> We would like to thank the organizers of <b><i>statuscode0</i></b> for creating an engaging and enriching hackathon experience.
 
 
-<li><strong>[Any Other Special Thanks]:</strong> [Provide any additional acknowledgements you deem appropriate.]
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <p align="right">
 We are truly appreciative of all the support and resources that contributed to the success of our hackathon project.
