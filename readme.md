@@ -83,9 +83,10 @@ Their insights, feedback, and expertise played a crucial role in shaping the pro
 <li><strong>Third-Party APIs and Libraries:</strong> We utilized the following APIs and libraries that significantly enhanced our project's functionality: 
 <ol>
 <li>Scikit-Learn
-<li>
-<li>
-<li>
+<li>Express
+<li>React
+<li>Streamlit
+<li>Auth0
 <br>
 and many more.
 </ol>
