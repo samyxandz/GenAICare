@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
-const User = require('./models/user');
+const appointment = require('./models/Appointment');
 const ExpressError = require('./utils/ExpressError');
 const catchAsync = require('./utils/catchAsync');
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -39,14 +39,45 @@ app.post('/hi',catchAsync(async (req, res, next) => {
 }));
 */
 
-app.post('/submit',catchAsync(async (req,res,next)=>{
-console.log(req.body)
+app.get('/Appointment',catchAsync(async(req,res,next)=>{
+    const Appointments= await appointment.find({})
+    res.json(Appointments)
 }))
+app.get('/Appointment/:email',catchAsync(async(req,res,next)=>{
+    const { email } = req.params;
+    console.log(email)
+    const Appointment = await appointment.find({Email:`${email}`})
+    res.json(Appointment)
+}))
+
+app.post('/Appointment',catchAsync(async (req,res,next)=>{
+    const Appointment = new appointment(req.body)
+    await Appointment.save();
+    res.json({Status:"Success"})
+
+}))
+app.put('/Appointment/:email',catchAsync(async(req,res,next)=>{
+    const { email } = req.params
+
+    const Appointment = await appointment.find({Email:`${email}`})
+    const Appointments = await appointment.findByIdAndUpdate(Appointment[0]._id, { ...req.body },{returnOriginal: false})
+    
+    res.json({status:"Success",Appointments})
+}))
+app.delete('/Appointment/:email',catchAsync(async(req,res,next)=>{
+    const { email } = req.params
+    console.log(email)
+    const Appointment = await appointment.find({Email:`${email}`})
+    await appointment.findByIdAndDelete(Appointment._id)
+    res.json({Status:"Success"})
+}))
+
+
+
+
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404))
 })
-
-
 
 app.use((err, req, res, next) => {
     const { statusCode = 500 } = err;
