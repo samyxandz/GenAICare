@@ -56,7 +56,7 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
   For this project, we have constructed 2 rest APIS that allow us to configure the appointments and contacts to suit our needs and to allow change.
 We plan on changing these open routes into protected routes.
   
-Currently  our Project supports  2 API endpoints :-
+Currently, our Project supports  2 API endpoints:-
 </p>
 <ul>
 <li><a href="https://www.postman.com/spambytes/workspace/team-workspace/collection/26164952-6f5c79bc-7ff2-4806-b8b6-e0b2c4331d22?action=share&source=copy-link&creator=26164952" target="blank">/contacts</a>
@@ -67,6 +67,9 @@ This is a rest API that implements CRUD functionality for appointments
 <p>
 This is a rest API that implements CRUD functionality for appointments
 </p>
+</li>
+</ul>
+</br>
 <h2>Getting Started:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <B>To dive into the world of GenAIcare:</b>
