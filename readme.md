@@ -48,19 +48,19 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 <li><strong>parkinson disease:-</strong><ul>support factor machine (svm)</ul>
 <li><strong>Diabetes:-</strong><ul>linear regression & sigmoid</ul>
 <li><strong>Heart disease:-</strong><ul>decision tree classifier & vector classifier </ul>
-<h2>API Used:-
-</h2>
+<h2>API:-</h2>
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <p>
-In our system we have used 2 API endpoints
+In our Project, we have used 2 API endpoints
 </p>
 <ul>
 <li><a href="https://www.postman.com/spambytes/workspace/team-workspace/collection/26164952-6f5c79bc-7ff2-4806-b8b6-e0b2c4331d22?action=share&source=copy-link&creator=26164952" target="blank">/contacts</a>
 <p>
-This is a rest api that implements CRUD functionality for appointments
+This is a rest API that implements CRUD functionality for appointments
 </p>
 <li><a href="https://www.postman.com/spambytes/workspace/team-workspace/collection/26164952-6f5c79bc-7ff2-4806-b8b6-e0b2c4331d22?action=share&creator=26164952" target="blank">/apointments</a>
 <p>
-This is a rest api that implements CRUD functionality for appointments
+This is a rest API that implements CRUD functionality for appointments
 </p>
 <h2>Getting Started:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
