@@ -42,7 +42,7 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 
 <h2>AI Models Used:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-</br></ber>
+</br>
 <li><strong>Breast cancer detection:-</strong>
 <br><ul>logistic regression</ul>
 <li><strong>parkinson disease:-</strong><ul>support factor machine (svm)</ul>
