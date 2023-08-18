@@ -38,7 +38,7 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 </br></ber>
 
-<I><B>Join us on the forefront of medical innovation and experience the future of disease detection with AI. Together, we're making healthcare smarter, faster, and more effective.</B></I>
+
 
 <h2>AI Models Used:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
