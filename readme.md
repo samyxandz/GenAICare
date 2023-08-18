@@ -51,7 +51,7 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 <h2>API Used:-
 </h2>
 <p>
-In our system we have used 2 API
+In our system we have used 2 API endpoints
 </p>
 <ul>
 <li><a href="https://www.postman.com/spambytes/workspace/team-workspace/collection/26164952-6f5c79bc-7ff2-4806-b8b6-e0b2c4331d22?action=share&source=copy-link&creator=26164952" target="blank">/contacts</a>
