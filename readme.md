@@ -49,7 +49,7 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 <li><strong>Diabetes:-</strong><ul>linear regression & sigmoid</ul>
 <li><strong>Heart disease:-</strong><ul>decision tree classifier & vector classifier </ul>
 
- <br> 
+ </br> 
 <h2>API:-</h2>
   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <p>
