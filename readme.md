@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋, We're Spambytes</h1>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <h3 align="center">Welcome to GenAiCare, your ultimate platform for detecting disease.</h3>
-</br></ber>
+<br/><ber/>
 <div style="text-align: center;">
 <img src="./1.jpg" align="center">
 </div>
 <h2>Description:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <p>Our platform  GenAiCare leverages the power of artificial intelligence to revolutionize the way diseases are detected, diagnosed and appoint doctor for you. With advanced machine learning algorithms and deep neural networks, we offer a cutting-edge solution for accurate and efficient disease identification.</p>
-</br></ber>
+<br/><ber/>
 <h2>Features:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <ul>
@@ -27,7 +27,7 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 <li> Email: info@hospitalname.com
 </ul>
 </ul>
-</br></ber>
+<br/><ber/>
 
 <h2>How It Works:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
@@ -36,13 +36,13 @@ If you need to get in touch with the hospital authority for inquiries, feedback,
 <li> <strong>Instant Results:</strong> Within seconds, users receive detailed reports outlining the AI's disease predictions and suggested next steps.
 <li> <strong>Collaboration:</strong> Healthcare professionals can use our platform to collaborate, discuss cases, and share insights, enhancing the accuracy of diagnoses.
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-</br></ber>
+<br/><ber/>
 
 
 
 <h2>AI Models Used:-</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-</br>
+<br/>
 <li><strong>Breast cancer detection:-</strong>
 <br><ul>logistic regression</ul>
 <li><strong>parkinson disease:-</strong><ul>support factor machine (svm)</ul>
