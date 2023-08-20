@@ -23,8 +23,8 @@
 <li><strong>Contact in the hospital authority 🏥:</strong>
 If you need to get in touch with the hospital authority for inquiries, feedback, or assistance, we're here to help. You can reach us through the following channels:
 <ul>
-<li> Phone: +91 123-456-7890
-<li> Email: info@hospitalname.com
+<li> Phone: +91 123-456-7890</li>
+<li> Email: info@hospitalname.com</li>
 </ul>
 </ul>
 <br/><ber/>
